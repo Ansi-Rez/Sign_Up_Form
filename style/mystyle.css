@@ -1,0 +1,171 @@
+@font-face {
+    font-family:"myFont";
+    src: url("../fonts/norse-bold-webfont.woff2");
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+html
+{
+    font-family:system-ui, sans-serif;
+}
+
+button
+{
+    width:150px;
+    height:35px;
+    background-color:#596D48;
+    color:#FFFFFF;
+    margin:3% 0 3% 0;
+    border:1px solid #596D48;
+    border-radius:5px;
+    box-shadow:2px 5px 2px #cfd8cf;
+    font-size:14px;
+}
+
+input
+{
+    margin:0 0 3% 0;
+    border:1px solid #E5E7EB;
+    border-radius:2px;
+}
+
+input[type="password"]:invalid
+{
+    border:1px solid #ee0404;
+    outline:none;
+}
+
+input:focus
+{
+    border:1px solid #04eee7;
+    outline:none;
+    box-shadow:0 3px 3px #cfd8cf;
+}
+
+label
+{
+    font-size:0.8rem;
+    font-weight:500;
+}
+
+h3
+{
+    margin:2% 0 2% 0;
+}
+
+#login
+{
+    color:#596D48;
+    text-decoration:none;
+}
+
+.ital
+{
+    font-style:italic;
+}
+
+.container
+{
+    display:flex;
+    min-height:100vh;
+}
+
+.left
+{
+    width:35vw;
+    background-image:url(../images/brendan-stephens--3zl91Qo0EY-unsplash.jpg);
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.logo_div
+{
+    background-color:rgba(0,0,0,0.5);
+    height:18%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:25% 0 0 0;
+    font-family:"myFont";
+    color:#FFFFFF;
+    font-size:4rem;
+}
+
+.credits
+{
+    height:10%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#FFFFFF;
+    font-size:0.8rem;
+}
+
+.credits a
+{
+    color:#FFFFFF;
+}
+
+.right
+{
+    flex:1;
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+}
+
+.blurb
+{
+    margin: 0 0 4% 0;
+}
+
+.right > div
+{
+    display:flex;
+    padding:0 15% 0 3%;
+}
+
+.right > div:nth-child(odd)
+{
+    background-color:#F5F5F5;
+    flex:1;
+}
+
+.right > div:nth-child(even)
+{
+    height:32vh;
+    box-shadow:0 4px 4px #cfd8cf;
+    z-index:10;
+    flex-direction:column;
+    color:#4e5454;
+}
+
+.right > div:nth-child(1)
+{
+    align-items:flex-end;
+    font-size:1.3rem;
+    font-weight:500;
+}
+
+.right > div:nth-child(3)
+{
+    flex-direction:column;
+}
+
+#user_form
+{
+    display:flex;
+}
+
+#user_form > div:nth-child(2)
+{
+    margin:0 0 0 5%;
+}
